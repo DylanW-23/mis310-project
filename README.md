@@ -1,3 +1,3 @@
 # mis310-project
 Repository for semester project in MIS 310 class in Fall 2026
-What are you looking at?
+<p>What are you looking at?</p>
