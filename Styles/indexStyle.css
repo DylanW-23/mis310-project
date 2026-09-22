@@ -8,12 +8,14 @@ h1 {
 }
 
 p {
+
     color: green;
 
     font-style: bold;
 }
 
 body {
+    
     background-color:greenyellow;
 }
 
