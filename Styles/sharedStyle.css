@@ -22,3 +22,18 @@ body {
 
 }
 
+img {
+
+    height: 50%;
+
+    width: 50%;
+
+}
+
+.set {
+    Display: flex;
+
+    height: 50%;
+
+    width: 50%;
+}
