@@ -8,4 +8,8 @@ footer {background-color: darkblue;}
 
 h1, p {font-family: Arial, Helvetica, sans-serif; color: black;font-style: bold;}
 
+.navBar{display:block}
+
 .footText, .headText {color: white}
+
+.set{display: grid;}
