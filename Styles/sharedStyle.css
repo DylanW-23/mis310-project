@@ -1,24 +1,16 @@
 /* Comment here */
 
-* {
+header {background-color: red;}
 
-    display: grid;
-
-    box-sizing: border-box;
-
-    margin: 5%;
-
-    padding: 5%;
-
-    border: 5px solid black;
-
-}
+footer {background-color: black;}
 
 h1, p {
 
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.footText {color: white}
 
 p {
 
