@@ -8,8 +8,8 @@ footer {background-color: darkblue;}
 
 h1, p {font-family: Arial, Helvetica, sans-serif; color: black;font-style: bold;}
 
-.navBar{display:grid; columns: 3;}
+.navBar{display: flex; columns: 3;}
 
 .footText, .headText {color: white}
 
-.set{display: grid;}
+.set{display: flex;}
