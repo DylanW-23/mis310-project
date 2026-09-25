@@ -14,13 +14,11 @@ footer {background-color: black; margin-top: auto;}
 
 h1, p, a {font-family: Arial, Helvetica, sans-serif; color: black;}
 
-h1 {font-size: bold;}
+h1 {font-size: bold; text-align: center;}
 
-div {margin: 5%;}
+div {display: flex; margin: 2.5%;}
 
-img {width: 25%;}
-
-.sets {display: flex;}
+img {width: 20%;}
 
 .navBar{list-style-type: none; display: flex; justify-content: space-between;}
 
