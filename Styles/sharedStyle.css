@@ -20,8 +20,10 @@ div {margin: 5%;}
 
 img {width: 25%;}
 
+.sets {display: flex;}
+
 .navBar{list-style-type: none; display: flex; justify-content: space-between;}
 
-.footText, .headText, .navLink {height: 7%; color: white; padding: 2%; justify-content: center; align-items: center;}
+.footText, .headText, .navLink {height: 7%; color: white; padding: 2%; justify-content: center; text-align: center;}
 
 .navLink:hover { border-radius: 4px; color: aqua;}
