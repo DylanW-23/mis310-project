@@ -4,7 +4,7 @@ body {background-color:gold; min-height: 100dvh; margin: 0; padding: 0;}
 
 header, footer {justify-content: center; margin: 0; padding: 0;}
 
-header {background-color: red;}
+header {background-color: red; margin-top: 0;}
 
 footer {background-color: black;}
 
