@@ -2,13 +2,13 @@
 
 * {margin: 0; padding: 0}
 
-body {background-color:gold; min-height: 400dvh;}
+body {background-color:gold; min-height: 200dvh;}
 
 header, footer {justify-content: center;}
 
 header {background-color: red;}
 
-footer {background-color: black;}
+footer {background-color: black; margin-top: auto;}
 
 h1, p, a {font-family: Arial, Helvetica, sans-serif; color: black;}
 
