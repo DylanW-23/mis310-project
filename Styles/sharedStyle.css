@@ -6,7 +6,7 @@ body {background-color:gold; display: flex; flex-direction: column; min-height: 
 
 main {flex-grow: 1;}
 
-header, footer {justify-content: center;}
+header, footer {justify-content: center; height: 7.5%;}
 
 header {background-color: red;}
 
@@ -22,7 +22,7 @@ img {width: 20%;}
 
 .navBar{list-style-type: none; display: flex; justify-content: space-between}
 
-.footText, .headText, .navLink {height: 7.5%; color: white; text-align: center;}
+.footText, .headText, .navLink {color: white; text-align: center;}
 
 .navLink {width: 25%; height: 100%}
 
