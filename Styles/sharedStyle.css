@@ -1,8 +1,8 @@
 /* Comment here */
 
-body {background-color:gold; min-height: 100dvh;}
+body {background-color:gold; min-height: 100dvh; margin: 0; padding: 0;}
 
-header, footer {justify-content: center;}
+header, footer {justify-content: center; margin: 0; padding: 0;}
 
 header {background-color: red;}
 
