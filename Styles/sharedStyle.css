@@ -18,8 +18,10 @@ div {display: flex; margin: 2.5%;}
 
 img {width: 20%;}
 
-.navBar {list-style-type: none; display: flex; justify-content: center;}
+.navLinks {list-style-type: none; display: flex; justify-content: flex-start; gap: 10%;}
 
-.footText, .headText, .navLink {color: white;}
+.navLinks a {display: block; text-decoration: none; padding: 2% 5%;}
 
-.navLink:hover {border-radius: 4px; color: aqua;}
+.navLinks a:hover {border-radius: 4px; color: aqua; text-decoration: underline;}
+
+.footText, .headText, .navLinks {color: white;}
