@@ -20,6 +20,8 @@ img {width: 20%;}
 
 .navBar{list-style-type: none; display: flex; justify-content: space-between;}
 
+.navList{width: 25%;}
+
 .footText, .headText, .navLink {color: white;}
 
 .navLink:hover {border-radius: 4px; color: aqua;}
