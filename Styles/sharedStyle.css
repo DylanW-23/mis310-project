@@ -18,7 +18,7 @@ div {display: flex; margin: 2.5%;}
 
 img {width: 20%;}
 
-.navLinks {list-style-type: none; display: flex; justify-content: flex-start; gap: 10%;}
+.navLinks {list-style-type: none; display: flex; justify-content: space-between; gap: 5%;}
 
 .navLinks a {display: block; text-decoration: none; padding: 2% 5%;}
 
