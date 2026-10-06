@@ -18,7 +18,7 @@ div {display: flex; margin: 2.5%;}
 
 img {width: 20%;}
 
-.navBar{list-style-type: none; display: flex; justify-content: space-between}
+.navBar{list-style-type: none; display: flex; justify-content: space-between; padding: 1%;}
 
 .footText, .headText, .navLink {color: white;}
 
