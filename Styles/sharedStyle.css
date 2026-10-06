@@ -18,7 +18,9 @@ div {display: flex; margin: 2.5%;}
 
 img {width: 20%;}
 
-.navBar{list-style-type: none; display: flex; justify-content: flex-start;}
+.navBar {list-style-type: none; display: flex; justify-content: center;}
+
+.navItem {width: 25%;}
 
 .footText, .headText, .navLink {color: white;}
 
