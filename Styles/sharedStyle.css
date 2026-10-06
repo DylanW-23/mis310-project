@@ -18,10 +18,12 @@ div {display: flex; margin: 2.5%;}
 
 img {width: 20%;}
 
-.navLinks {list-style-type: none; display: flex; justify-content: space-between;}
+.navLinks {list-style-type: none; display: flex; margin: 2.5%;}
 
-.navLinks a {display: block; text-decoration: none; padding: 2% 5%;}
+.navLinks li {width: 25%;}
+
+.navLinks a {display: block; text-decoration: none;}
 
 .navLinks a:hover {border-radius: 4px; color: aqua; text-decoration: underline;}
 
-.footText, .headText, .navLinks {color: white;}
+.footText, .headText, .navLinks a{color: white;}
