@@ -16,7 +16,7 @@ h1 {font-size: bold}
 
 /* Defined element selectors */
 
-.set {display: flex; width: 100%;}
+.set {display: flex; width: 100%; justify-content: center;}
 
 .set img {width: 20%;}
 
@@ -38,12 +38,21 @@ h1 {font-size: bold}
 
 @media (width <= 768px) {
     
-    .set {flex-direction: column; justify-content: left;}
+    .set {flex-direction: column;}
+
+    .set img {width: 20%;}
+
+    .set p {width: 80%;}
 
 }
 
 @media (width > 768px) {
     
-    .set {flex-direction: row; justify-content: center;}
+    .set {flex-direction: row;}
+
+    .set img {width: 80%;}
+
+    .set p {width: 80%;}
+
 
 }
