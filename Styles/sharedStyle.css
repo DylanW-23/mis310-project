@@ -16,7 +16,7 @@ h1 {font-size: bold}
 
 /* Defined element selectors */
 
-.set {display: flex; width: 100%; justify-content: center;}
+.set {display: flex; width: 100%; justify-content: center; padding: 2.5%}
 
 .set img {width: 20%;}
 
@@ -40,7 +40,7 @@ h1 {font-size: bold}
     
     .set {flex-direction: column;}
 
-    .set img {width: 20%;}
+    .set img {width: 80%;}
 
     .set p {width: 80%;}
 
@@ -50,7 +50,7 @@ h1 {font-size: bold}
     
     .set {flex-direction: row;}
 
-    .set img {width: 80%;}
+    .set img {width: 20%;}
 
     .set p {width: 80%;}
 
