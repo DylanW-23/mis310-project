@@ -22,7 +22,7 @@ h1 {font-size: bold}
 
 .set p {width: 80%; text-align: left;}
 
-.navLinks {list-style-type: none; display: flex; margin: 2.5%;}
+.navLinks {list-style-type: none; display: flex;}
 
 .navLinks li {width: 25%;}
 
