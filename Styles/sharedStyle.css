@@ -20,9 +20,9 @@ h1 {font-size: bold}
 
 .set img {width: 20%;}
 
-.set p {width: 80%;}
+.set p {width: 80%; text-align: left;}
 
-.navLinks {list-style-type: none; display: flex; margin: 2,5%;}
+.navLinks {list-style-type: none; display: flex; margin: 2.5%;}
 
 .navLinks li {width: 25%;}
 
@@ -34,13 +34,13 @@ h1 {font-size: bold}
 
 .audioPlay {display: flex; justify-content: center; align-items: center;}
 
-/* Media Query */
+/* Media Queries */
 
 @media (width <= 768px) {
     
     .set {flex-direction: column;}
 
-    .set img {width: 80%;}
+    .set img {width: 50%;}
 
     .set p {width: 80%;}
 
