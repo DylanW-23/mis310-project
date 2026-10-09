@@ -42,7 +42,7 @@ h1 {font-size: bold}
 
     .set img {width: 50%;}
 
-    .set p {width: 80%;}
+    .set p {width: 100%;}
 
 }
 
@@ -50,9 +50,9 @@ h1 {font-size: bold}
     
     .set {flex-direction: row;}
 
-    .set img {width: 20%;}
+    .set img {width: 30%;}
 
-    .set p {width: 80%;}
+    .set p {width: 70%;}
 
 
 }
