@@ -26,7 +26,7 @@ h1 {font-size: bold}
 
 .setYear {grid-column: 2 / 3; grid-row: 1 / 2; text-align: left;}
 
-.setDesc {grid-column: 1 / 3; grid-row: 2 / 3; text-align: center;}
+.setDesc {grid-column: span 2; grid-row: 2 / 3; text-align: center;}
 
 .navLinks {list-style-type: none; display: flex;}
 
