@@ -20,7 +20,7 @@ h1 {font-size: bold}
 
 .set img {width: 20%;}
 
-.setInfo {display: grid; width: 80%; grid-template-columns: 50% 50%; grid-template-rows: 25% 75%;}
+.setInfo {display: grid; width: 80%; grid-template-columns: repeat(2, 50%); grid-template-rows: 25% 75%;}
 
 .setName {grid-column: 1 / 2; grid-row: 1 / 2; text-align: left;}
 
