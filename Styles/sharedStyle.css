@@ -36,13 +36,11 @@ textarea {width: 50%; resize: vertical; max-height: 200px; min-height: 100px;}
 
 .navLinks li {width: 25%;}
 
-.navLinks a {display: block; text-decoration: none;}
+.navLinks a {display: block; text-decoration: none; font-style: bold;}
 
 .navLinks a:hover {border-radius: 4px; color: aqua; text-decoration: underline;}
 
 .footText, .headText, .navLinks a{color: white;}
-
-.headText {font-style: bold;}
 
 .audioPlay {display: flex; justify-content: center; align-items: center;}
 
