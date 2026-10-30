@@ -28,7 +28,7 @@
         </header>
 
             <h1>Send us your feedback:</h1>
-            <form action="feedbackForm.html" method="post">
+            <form action="feedbackForm.html" method="post" action="https://miswebapps.uncw.edu/mis310/form-submit.aspx">
                 <label for="userName">Name:</label>
                 <input type="text" id="userName" name="userName" required>
                 <br>
@@ -38,10 +38,12 @@
                 <br>
 
                 <label for="userFav">Which Theme was your favorite?</label>
-                <input type="select" id="userFav" name="userFav" required>
+                <selec id="userFav" name="userFav" required>
                     <option value="castleTheme">Castle</option>
                     <option value="spaceTheme">Space</option>
                     <option value="piratesTheme">Pirates</option>
+                </select>
+                <br>
 
                 <label for="userSuggest">Any suggestions?:</label>
                 <textarea id="userSuggest" name="userSuggest"></textarea>
