@@ -16,6 +16,8 @@ h1 {font-size: bold}
 
 form {display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3%; padding: 2.5%;}
 
+textarea {width: 50%; height: 35%; resize: none;}
+
 /* Defined element selectors */
 
 .set {display: flex; width: 100%; justify-content: center; padding: 2.5%}
