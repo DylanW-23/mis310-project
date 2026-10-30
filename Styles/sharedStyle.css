@@ -36,7 +36,7 @@ h1 {font-size: bold}
 
 .navLinks a:hover {border-radius: 4px; color: aqua; text-decoration: underline;}
 
-.headText, .navLinks a{color: white;}
+.footText, .headText, .navLinks a{color: white; justify-content: center; align-items: center; text-align: center;}
 
 .audioPlay {display: flex; justify-content: center; align-items: center;}
 
