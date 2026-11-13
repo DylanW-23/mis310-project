@@ -8,5 +8,5 @@ const submitResponse = document.querySelector("#submitResponse");
 // Functions
 
 submitButton.addEventListener("click", function () {
-    submitResponse.textContent = "Join us Friday at 2 PM!";
+    submitResponse.textContent = "Thank you for the Feedback!";
 });
