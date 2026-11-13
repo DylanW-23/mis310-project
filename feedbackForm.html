@@ -15,7 +15,7 @@
 
         <script src="Scripting/audioScript.js" defer></script>
 
-        <audio id="loadAudio" src="../Sounds/legogamebuildingsfx.mp3" type="audio.mp3"></audio>
+        <audio id="loadAudio" src="Sounds/legogamebuildingsfx.mp3" type="audio.mp3"></audio>
     
     </head>
     <body>
@@ -35,7 +35,7 @@
 
             <h1>Send us your feedback:</h1>
             <form action="feedbackForm.html" method="post" action="https://miswebapps.uncw.edu/mis310/form-submit.aspx">
-                <label for="userName" id="submitButton">Name:</label>
+                <label for="userName">Name:</label>
                 <input type="text" id="userName" name="userName" required>
                 <br>
 
@@ -55,7 +55,7 @@
                 <textarea id="userSuggest" name="userSuggest"></textarea>
                 <br>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="submitButton">
 
                 <p id="submitResponse"></p>
             </form>
