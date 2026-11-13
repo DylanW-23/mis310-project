@@ -2,8 +2,8 @@
 
 // Variable Declarations
 
-const submitButton = document.querySelector("#submitButton")
-const submitResponse = document.querySelector("#submitResponse")
+const submitButton = document.querySelector("#submitButton");
+const submitResponse = document.querySelector("#submitResponse");
 
 // Functions
 
