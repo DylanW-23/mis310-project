@@ -34,11 +34,13 @@ textarea {width: 50%; resize: vertical; max-height: 200px; min-height: 100px;}
 
 .navLinks {list-style-type: none; display: flex;}
 
-.navLinks li {width: 25%;}
+.navLinks li {width: 25%; background-color: transparent}
 
 .navLinks a {display: block; text-decoration: none; font-style: bold;}
 
 .navLinks a:hover {border-radius: 4px; color: aqua; text-decoration: underline;}
+
+.navLinks li:hover {background-color: darkred;}
 
 .footText, .headText, .navLinks a{color: white;}
 
