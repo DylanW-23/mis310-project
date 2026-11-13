@@ -1,3 +1,5 @@
+// Meant to create a little response message whenever a form is submitted
+
 // Variable Declarations
 
 const submitButton = document.querySelector("#submitButton")
