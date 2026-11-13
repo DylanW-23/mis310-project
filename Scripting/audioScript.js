@@ -12,9 +12,11 @@ const trigger = document.getElementsByClassName(".setImg");
 
 trigger.forEach((element) => {
 
-  trigger.addEventListener("click", function () {
+  element.addEventListener("click", function () {
     audio.currentTime = 0;
     audio.play();
 });
 
 });
+
+// this thing has been so fickle so far
