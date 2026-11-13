@@ -8,9 +8,13 @@ const trigger = document.querySelectorAll(".setImg");
 
 // Functions
 
-trigger.forEach(trigger){
-trigger.addEventListener("click", function () {
+
+
+trigger.forEach((element) => {
+
+  trigger.addEventListener("click", function () {
     audio.currentTime = 0;
     audio.play();
 });
-};
+
+});
