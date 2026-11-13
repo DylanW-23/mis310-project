@@ -2,12 +2,13 @@
 
 // Variable Declarations
 
-const linkClick = document.getElementById("#navbar");
-const audio = document.querySelector("#loadAudio");
+const audio = new Audio("../Sounds/legogamebuildingsfx.mp3");
+const links = document.querySelector(".navLinks a");
+
 
 // Functions
 
-linkClick.addEventListener("click", function () {
+links.addEventListener("click", function () {
     audio.currentTime = 0;
     audio.play();
 });
