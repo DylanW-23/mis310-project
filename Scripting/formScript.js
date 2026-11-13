@@ -3,10 +3,10 @@
 // Variable Declarations
 
 const submitButton = document.querySelector("#submitButton")
-const submitresponse = document.querySelector("#submitresponse")
+const submitResponse = document.querySelector("#submitResponse")
 
 // Functions
 
 submitButton.addEventListener("click", function () {
-    submitresponse.textContent = "Join us Friday at 2 PM!";
+    submitResponse.textContent = "Join us Friday at 2 PM!";
 });
