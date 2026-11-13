@@ -1,14 +1,14 @@
-// Meant to play a little jingle whenever a link is clicked to load a page
+// Meant to play a little jingle whenever an images is clicked
 
 // Variable Declarations
 
 const audio = new Audio("../Sounds/legogamebuildingsfx.mp3");
-const links = document.querySelector(".navLinks a");
+const trigger = document.querySelector("img");
 
 
 // Functions
 
-links.addEventListener("click", function () {
+trigger.addEventListener("click", function () {
     audio.currentTime = 0;
     audio.play();
 });
