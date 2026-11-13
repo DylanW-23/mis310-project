@@ -2,7 +2,7 @@
 
 // Variable Declarations
 
-const submitButton = document.querySelector("#submitButton");
+const submitButton = document.getElementById("#submitButton");
 const submitResponse = document.querySelector("#submitResponse");
 
 // Functions
