@@ -2,7 +2,7 @@
 
 // Variable Declarations
 
-const linkClick = document.getElementsByClassName("#navLinks");
+const linkClick = document.querySelector("#navbar");
 const audio = document.querySelector("#loadAudio");
 
 // Functions
