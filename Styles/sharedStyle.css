@@ -44,8 +44,6 @@ textarea {width: 50%; resize: vertical; max-height: 200px; min-height: 100px;}
 
 .footText, .headText, .navLinks a{color: white;}
 
-.audioPlay {display: flex; justify-content: center; align-items: center;}
-
 /* Media Queries */
 
 @media (width <= 768px) {
