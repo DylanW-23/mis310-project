@@ -22,9 +22,9 @@ textarea {width: 50%; resize: vertical; max-height: 200px; min-height: 100px;}
 
 .set {display: flex; width: 100%; justify-content: center; padding: 2.5%}
 
-.set img {width: 20%; border-style: none;}
+.set img {width: 20%;}
 
-.set img:hover {border-style: 4px solid Red;}
+.set img:hover {cursor: pointer;}
 
 .setInfo {display: grid; width: 80%; grid-template-columns: repeat(2, 50%); grid-template-rows: 25% 75%;}
 
